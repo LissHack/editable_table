@@ -1,19 +1,17 @@
-table {
-  td {
+table td {
     vertical-align: middle;
-  }
 }
 
 .custom-table__action-btn {
-  cursor: pointer;
-  border: 1px solid #eee;
-  background: none;
-  margin-right: 5px;
+    cursor: pointer;
+    border: 1px solid #eee;
+    background: none;
+    margin-right: 5px;
+}
 
-  svg {
+.custom-table__action-btn svg {
     pointer-events: none;
     padding: 5px;
     width: 1.7em;
     height: 1.7em;
-  }
 }

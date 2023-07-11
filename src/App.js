@@ -15,9 +15,9 @@ function App() {
   ];
 
   return (
-    <>
+    <div>
       <EditableTable columns={columns} rows={data} actions />
-    </>
+    </div>
   );
 }
 
